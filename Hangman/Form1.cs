@@ -18,6 +18,8 @@ namespace Hangman
                                         Hangman.Properties.Resources.Hangman3, Hangman.Properties.Resources.Hangman4,
                                         Hangman.Properties.Resources.Hangman5, Hangman.Properties.Resources.Hangman6,
                                         Hangman.Properties.Resources.Hangman7};
+        private String[] hangwords = {Hangman.Properties.Resources.countries_and_capitals};
+
         private int wrongGuesses = 0;
         private string current = "";
         private string copyCurrent = "";
@@ -37,14 +39,14 @@ namespace Hangman
         private void loadwords()
         {
             char[] delimiterChars = { '|' };
-            string[] readText = File.ReadAllLines("countries_and_capitals.txt");
+            string[] readText = Hangman.Properties.Resources.countries_and_capitals.Split('\n');
             words = new string[readText.Length];
             hint = new string[readText.Length];
             int index = 0;
             foreach (string s in readText)
             {
                 string[] line = s.Split(delimiterChars);
-                words[index++] = line[1];
+                words[index] = line[1];
                 hint[index++] = line[0];
                 
              
