@@ -1,0 +1,183 @@
+Afghanistan|kabul
+Albania|tirana
+Algeria|algiers
+Andorra|andorra la vella
+Angola|luanda
+Argentina|buenos aires
+Armenia|yerevan
+Australia|canberra
+Austria|vienna
+Azerbaijan|baku
+Bahamas|nassau
+Bahrain|manama
+Bangladesh|dhaka
+Barbados|bridgetown
+Belarus|minsk
+Belgium|brussels
+Belize|belmopan
+Bhutan|thimphu
+Bolivia|la paz
+Bosnia and Herzegovina|sarajevo
+Botswana|gaborone
+Brazil|brasilia
+Brunei|bandar seri begawan
+Bulgaria|sofia
+Burkina Faso|ouagadougou
+Burundi|bujumbura
+Cabo Verde|praia
+Cambodia|phnom Penh
+Cameroon|yaounde
+Canada|ottawa
+Central African Republic|bangui
+Chile|santiago
+China|beijing
+Colombia|bogota
+Comoros|moroni
+Democratic Republic of the Congo|kinshasa
+Republic of the Congo|brazzaville
+Costa Rica|san jose
+Croatia|zagreb
+Cuba|havana
+Cyprus|nicosia
+Czech Republic|prague
+Denmark|copenhagen
+Dominica|roseau
+Dominican Republic|santo domingo
+Ecuador|quito
+Egypt|cairo
+El Salvador|san salvador
+Equatorial Guinea|malabo
+Eritrea|asmara
+Estonia|tallinn
+Ethiopia|addis ababa
+Fiji|suva
+Finland|helsinki
+France|paris
+Gabon|libreville
+Gambia|banjul
+Georgia|tbilisi
+Germany|berlin
+Ghana|accra
+Greece|athens
+Guatemala|guatemala city
+Guinea|conakry
+Guinea-Bissau|bissau
+Guyana|georgetown
+Honduras|tegucigalpa
+Hungary|budapest
+Iceland|reykjavik
+India|new delhi
+Indonesia|jakarta
+Iran|tehran
+Iraq|baghdad
+Ireland|dublin
+Israel|jerusalem
+Italy|rome
+Jamaica|kingston
+Japan|tokyo
+Jordan|amman
+Kazakhstan|astana
+Kenya|nairobi
+Kiribati|south tarawa
+Kosovo|pristina
+Kuwait|kuwait city
+Kyrgyzstan|bishkek
+Laos|vientiane
+Latvia|riga
+Lebanon|beirut
+Lesotho|maseru
+Liberia|monrovia
+Libya|tripoli
+Liechtenstein|vaduz
+Lithuania|vilnius
+Luxembourg|luxembourg
+Macedonia|skopje
+Madagascar|antananarivo
+Malawi|lilongwe
+Malaysia|kuala lumpur
+Maldives|male
+Mali|bamako
+Malta|valletta
+Marshall Islands|majuro
+Mauritania|nouakchott
+Mauritius|port louis
+Mexico|mexico city
+Micronesia|palikir
+Moldova|chisinau
+Monaco|monaco
+Mongolia|ulaanbaatar
+Montenegro|podgorica
+Morocco|rabat
+Mozambique|maputo
+Namibia|windhoek
+Nauru|yaren district
+Nepal|kathmandu
+Netherlands|amsterdam
+New Zealand|wellington
+Nicaragua|managua
+Niger|niamey
+Nigeria|abuja
+North Korea|pyongyang
+Norway|oslo
+Oman|muscat
+Pakistan|islamabad
+Palau|ngerulmud
+Palestine|ramallah
+Panama|panama city
+Papua New Guinea|port moresby
+Paraguay|asunción
+Peru|lima
+Philippines|manila
+Poland|warsaw
+Portugal|lisbon
+Qatar|doha
+Romania|bucharest
+Russia|moscow
+Rwanda|kigali
+Saint Kitts and Nevis|basseterre
+Saint Lucia|castries
+Saint Vincent and the Grenadines|kingstown
+Samoa|apia
+San Marino|san marino
+Saudi Arabia|riyadh
+Senegal|dakar
+Serbia|belgrade
+Seychelles|victoria
+Sierra Leone|freetown
+Singapore|singapore
+Slovakia|bratislava
+Slovenia|ljubljana
+Solomon Islands|honiara
+Somalia|mogadishu
+South Africa|pretoria
+South Korea|seoul
+South Sudan|juba
+Spain|madrid
+Sudan|khartoum
+Suriname|paramaribo
+Swaziland|mbabane
+Sweden|stockholm
+Switzerland|bern
+Syria|damascus
+Taiwan|taipei
+Tajikistan|dushanbe
+Tanzania|dodoma
+Thailand|bangkok
+Togo|lome
+Trinidad and Tobago|port of spain
+Tunisia|tunis
+Turkey|ankara
+Turkmenistan|ashgabat
+Tuvalu|funafuti
+Uganda|kampala
+Ukraine|kyiv
+United Arab Emirates|abu dhabi
+United Kingdom|london
+United States of America|washington
+Uruguay|montevideo
+Uzbekistan|tashkent
+Vanuatu|port vila
+Venezuela|caracas
+Vietnam|hanoi
+Zambia|lusaka
+Zimbabwe|harare
