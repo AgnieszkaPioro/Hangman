@@ -25,16 +25,12 @@ namespace Hangman
         private string copyCurrent = "";
         private string[] words;
         private string[] hint;
-        
-        
         private int randomIndex;
-        
-
+       
         public frmHangman()
         {
             InitializeComponent();
             
-
         }
         private void loadwords()
         {
@@ -44,28 +40,19 @@ namespace Hangman
             hint = new string[readText.Length];
             int index = 0;
             foreach (string s in readText)
-
             {
                 string[] line = s.Trim().Split(delimiterChars);
                 words[index] = line[1];
                 hint[index++] = line[0];
-                
-             
-            }
-            
+            }  
         }
-
         private void setupWordChoice()
         {
             wrongGuesses = 0;
             hangmanImage.Image = hangimages[wrongGuesses];
             int guessIndex = (new Random()).Next(words.Length);
             current = words[guessIndex];
-            
-            
             labelHint.Text = "The capital of " + hint[guessIndex];
-
-            
             copyCurrent = "";
             for(int index = 0; index < current.Length; index++ )
             {
@@ -82,12 +69,10 @@ namespace Hangman
                 lblShowWord.Text += " ";
             }
         }
-
         private void updateCopy(char guess)
         {
 
         }
-
         private void guessClick(object sender, EventArgs e)
         {
             Button choice = sender as Button;
@@ -106,8 +91,6 @@ namespace Hangman
                 }
                 copyCurrent = new string(temp);
                 displayCopy();
-
-
             }
             else
             {
@@ -116,14 +99,10 @@ namespace Hangman
             if (wrongGuesses < 7)
             {
                 hangmanImage.Image = hangimages[wrongGuesses];
-                
-
-
             }
             else
             {
                 lblResult.Text = "You Lose!!!";
-                
                 cmdA.Enabled = false;
                 cmdB.Enabled = false;
                 cmdC.Enabled = false;
@@ -181,7 +160,6 @@ namespace Hangman
                 cmdY.Enabled = false;
                 cmdZ.Enabled = false;
             }
-
         }
 
         private void frmHangman_Load(object sender, EventArgs e)
@@ -189,7 +167,6 @@ namespace Hangman
             loadwords();
             setupWordChoice();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             setupWordChoice();
@@ -220,8 +197,6 @@ namespace Hangman
             cmdX.Enabled = true;
             cmdY.Enabled = true;
             cmdZ.Enabled = true;
-        }
-
-        
+        }  
     }
 }
