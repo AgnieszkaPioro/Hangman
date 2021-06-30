@@ -18,7 +18,7 @@ namespace Hangman
                                         Hangman.Properties.Resources.Hangman3, Hangman.Properties.Resources.Hangman4,
                                         Hangman.Properties.Resources.Hangman5, Hangman.Properties.Resources.Hangman6,
                                         Hangman.Properties.Resources.Hangman7};
-        private String[] hangwords = {Hangman.Properties.Resources.countries_and_capitals};
+        
 
         private int wrongGuesses = 0;
         private string current = "";
@@ -44,8 +44,9 @@ namespace Hangman
             hint = new string[readText.Length];
             int index = 0;
             foreach (string s in readText)
+
             {
-                string[] line = s.Split(delimiterChars);
+                string[] line = s.Trim().Split(delimiterChars);
                 words[index] = line[1];
                 hint[index++] = line[0];
                 
@@ -60,9 +61,9 @@ namespace Hangman
             hangmanImage.Image = hangimages[wrongGuesses];
             int guessIndex = (new Random()).Next(words.Length);
             current = words[guessIndex];
-            randomIndex = new Random().Next(words.Length);
             
-            labelHint.Text = "The capital of " + hint[randomIndex];
+            
+            labelHint.Text = "The capital of " + hint[guessIndex];
 
             
             copyCurrent = "";
